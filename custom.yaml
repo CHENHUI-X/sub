@@ -1,4 +1,4 @@
-# 自建节点 — 2026-05-25 07:11 UTC
+# 自建节点 — 2026-05-25 07:12 UTC
 # 节点数: 5
 
 name: 自建节点
@@ -60,18 +60,6 @@ proxies:
 proxy-groups:
 - name: 自建节点
   type: select
-  proxies:
-  - ♻️ 自动选择
-  - ⭐ VLESS | 35.212.240.179:33741
-  - ⭐ VMESS | google.cloud.eosphor.dpdns.org:2096
-  - ⭐ HYSTERIA2 | google.cloud.eosphor.dpdns.org:65083
-  - ⭐ TUIC | google.cloud.eosphor.dpdns.org:53900
-  - ⭐ ANYTLS | google.cloud.eosphor.dpdns.org:29624
-- name: ♻️ 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
   proxies:
   - ⭐ VLESS | 35.212.240.179:33741
   - ⭐ VMESS | google.cloud.eosphor.dpdns.org:2096
