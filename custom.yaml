@@ -1,4 +1,4 @@
-# 自建节点 — 2026-05-25 06:27 UTC
+# 自建节点 — 2026-05-25 06:38 UTC
 # 节点数: 5
 
 proxies:
@@ -77,4 +77,8 @@ proxy-groups:
   - ⭐ TUIC | google.cloud.eosphor.dpdns.org:53900
   - ⭐ ANYTLS | google.cloud.eosphor.dpdns.org:29624
 rules:
-- MATCH,自建节点
+- DOMAIN-SUFFIX,paypal.com,自建节点
+- DOMAIN-SUFFIX,paypalobjects.com,自建节点
+- DOMAIN-KEYWORD,paypal,自建节点
+- DOMAIN-SUFFIX,talktone.com,自建节点
+- DOMAIN-KEYWORD,talktone,自建节点
