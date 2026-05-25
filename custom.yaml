@@ -1,7 +1,8 @@
-# 自建节点 — 2026-05-25 07:09 UTC
+# 自建节点 — 2026-05-25 07:11 UTC
 # 节点数: 5
 
 name: 自建节点
+desc: 5个自建GCP节点 - VLESS/VMess/Hysteria2/TUIC/AnyTLS
 proxies:
 - type: vless
   server: 35.212.240.179
