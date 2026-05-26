@@ -1,11 +1,11 @@
-# 自建节点 — 2026-05-26 03:52 UTC
+# 自建节点 — 2026-05-26 14:24 UTC
 # 节点数: 5
 
 name: 自建节点
 desc: 5个自建GCP节点 - VLESS/VMess/Hysteria2/TUIC/AnyTLS
 proxies:
 - type: vless
-  server: 35.212.240.179
+  server: 35.212.210.211
   port: 33741
   uuid: 2f319249-0f52-4b66-8a83-7df47b6165f9
   tls: true
@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: DO1zSnLfiTk9qY4XknwZlKZBnC8PMDUac_WIrpg3qls
     short-id: 0d682811
-  name: ⭐ VLESS | 35.212.240.179:33741
+  name: ⭐ VLESS | 35.212.210.211:33741
 - type: vmess
   server: google.cloud.eosphor.dpdns.org
   port: 2096
@@ -61,7 +61,7 @@ proxy-groups:
 - name: 自建节点
   type: select
   proxies:
-  - ⭐ VLESS | 35.212.240.179:33741
+  - ⭐ VLESS | 35.212.210.211:33741
   - ⭐ VMESS | google.cloud.eosphor.dpdns.org:2096
   - ⭐ HYSTERIA2 | google.cloud.eosphor.dpdns.org:65083
   - ⭐ TUIC | google.cloud.eosphor.dpdns.org:53900
